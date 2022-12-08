@@ -1,0 +1,128 @@
+.pf__single {
+    &__content {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        @media (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+    &__header {
+        text-align: center;
+        &__thumb {
+            text-align: center;
+            width: 100%;
+            @media (max-width: 1024px) {
+                width: 90%;
+                position: relative;
+                margin: 0 auto;
+            }
+            img {
+                border: 2px solid #000;
+                width: 80%;
+                height: auto;
+            }
+        }
+        &__btn-home {
+            display: inline-block;
+            position: relative;
+            font-family: "Lora", "Times New Roman";
+            font-size: 20px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            border-bottom: 2px solid #000;
+            &:hover {
+                border-color: transparent !important;
+            }
+        }
+    }
+    &__info {
+        text-align: center;
+        width: 70%;
+        position: relative;
+        margin: 0 auto;
+        @media (max-width: 1024px) {
+           font-size: 20px;
+           line-height: 25px;
+           width: 90%;
+        }
+        h2 {
+            font-family: "Lora", "Times New Roman";
+            font-size: 60px;
+            line-height: 70px;
+            margin-top: 120px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            @media (max-width: 1024px) {
+                font-size: 40px;
+                line-height: 45px;
+                width: 100%;    
+            }
+            @media (max-width: 700px) {
+                font-size: 30px;
+                line-height: 35px;
+            }
+        }
+        span {
+            font-family: "Lora", "Times New Roman";
+            font-size: 60px;
+            line-height: 70px;
+            @media (max-width: 1024px) {
+                font-size: 40px;
+                line-height: 45px;
+                width: 100%;    
+            }
+            @media (max-width: 700px) {
+                font-size: 30px;
+                line-height: 35px;
+            }
+        }
+        p {
+            font-size: 30px;
+            line-height: 40px;
+            margin-top: 120px;
+            margin-bottom: 150px;
+            @media (max-width: 1024px) {
+               font-size: 20px;
+               line-height: 25px;
+               width: 100%;   
+            }
+        }
+    }
+    .wp-block-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 150px;
+        img {
+           width: 100%;
+           height: auto;   
+        }
+    }
+    &__control-links {
+        display: block;
+        list-style: none;
+        text-align: center;
+        li {
+            display: inline-block;
+            font-family: "Lora", "Times New Roman";
+            font-size: 20px;
+            margin: 0px;
+            @media (max-width: 700px) {
+                font-size: 18px;
+            }
+            a {
+                border-bottom: 2px solid #000;
+                &:hover {
+                    border-color: transparent !important;
+                }
+            }
+        }
+        li:nth-child(2) {
+           margin-left: 120px;
+           @media (max-width: 700px) {
+                margin-left: 60px;
+            }
+        }
+    }
+}
