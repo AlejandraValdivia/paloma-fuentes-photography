@@ -767,3 +767,6 @@ Stack trace:
 [08-Dec-2022 18:58:59 UTC] PHP Warning:  Constant WP_POST_REVISIONS already defined in C:\MAMP\htdocs\palomafuentes\wp-content\themes\palomafuentes\functions.php on line 17
 [08-Dec-2022 18:58:59 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\palomafuentes\wp-includes\functions.php on line 5279
 [08-Dec-2022 18:58:59 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\palomafuentes\wp-includes\functions.php on line 5279
+[08-Dec-2022 19:22:51 UTC] PHP Warning:  Constant WP_POST_REVISIONS already defined in C:\MAMP\htdocs\palomafuentes\wp-content\themes\palomafuentes\functions.php on line 17
+[08-Dec-2022 19:22:52 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\palomafuentes\wp-includes\functions.php on line 5279
+[08-Dec-2022 19:22:52 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\palomafuentes\wp-includes\functions.php on line 5279
